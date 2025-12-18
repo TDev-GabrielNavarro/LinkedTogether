@@ -1,9 +1,9 @@
 import { Text, View } from 'react-native';
 
-export default function MoodsScreen() {
+export default function BlinksScreen() {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text style={{ fontSize: 24 }}>Moods Screen</Text>
+            <Text style={{ fontSize: 24 , color: {color} }}>Blinks Screen</Text>
         </View>
     );
 }
