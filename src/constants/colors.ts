@@ -38,39 +38,37 @@ export const Colors = {
   
   dark: {
 
-    primary: '#FAFAFA',
-    primaryForeground: '#343434', 
-    secondary: '#454545',
-    secondaryForeground: '#FAFAFA',
-    accent: '#454545',
-    accentForeground: '#FAFAFA',
+    primary: '#7C6CF7',
+    primaryForeground: '#FFFFFF',
+    secondary: '#B5ADFF',
+    secondaryForeground: '#1A1A2E',
+    accent: '#FF8FB9',
+    accentForeground: '#1A1A2E',
     
-    // Fondos (oscuros)
-    background: '#1E1E2E',
-    foreground: '#FAFAFA',
-    card: '#252525',
-    cardForeground: '#FAFAFA',
+    // Fondos (oscuros pero no negros puros)
+    background: '#1A1A2E',
+    foreground: '#EEEEF0',
+    card: '#252541',
+    cardForeground: '#EEEEF0',
     
-    // Textos (claros en dark mode)
-    text: '#FAFAFA',
-    textSecondary: '#B5B5B5',
+    // Textos (CLAROS en dark)
+    text: '#EEEEF0',
+    textSecondary: '#A8A8B8',
     
-    // Estados (se mantienen igual para reconocimiento)
-    success: '#00B894',
-    warning: '#FDCB6E',
-    error: '#FF7675',
+    // Estados (vibrantes, se mantienen)
+    success: '#00D9A5',
+    warning: '#FFD93D',
+    error: '#FF6B6B',
     info: '#74B9FF',
     
-    // UI Elements (adaptados a oscuro)
-    border: '#454545',
-    input: '#454545',
-    inputBackground: '#2A2A2A',
-    muted: '#454545',
-    mutedForeground: '#B5B5B5',
-    
-    // Otros
-    ring: '#707070',
-    shadow: 'rgba(0, 0, 0, 0.3)',
+    // UI Elements
+    border: 'rgba(255, 255, 255, 0.1)',
+    input: '#2D2D44',
+    inputBackground: '#2D2D44',
+    muted: '#2D2D44',
+    mutedForeground: '#A8A8B8',
+    ring: '#7C6CF7',
+    shadow: 'rgba(0, 0, 0, 0.5)',
   },
 };
 
