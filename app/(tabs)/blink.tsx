@@ -1,9 +1,9 @@
 import { Text, View } from 'react-native';
 
-export default function BlinksScreen() {
+export default function BlinkScreen() {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text style={{ fontSize: 24 , color: {color} }}>Blinks Screen</Text>
+            <Text style={{ fontSize: 24 }}>Blink Screen</Text>
         </View>
     );
 }

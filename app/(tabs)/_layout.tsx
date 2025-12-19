@@ -1,5 +1,6 @@
 import { Colors } from '@/src/constants/colors';
 import { Ionicons } from '@expo/vector-icons';
+import Feather from '@expo/vector-icons/Feather';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import Octicons from '@expo/vector-icons/Octicons';
 import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
@@ -68,7 +69,7 @@ export default function TabLayout() {
         options={{
           title: 'Soundpad',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="volume-medium" color={color} size={size} />
+            <Feather name="volume-2" size={size} color={color} />
           ),
         }}
       />
